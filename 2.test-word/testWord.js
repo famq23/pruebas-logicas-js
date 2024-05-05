@@ -1,13 +1,15 @@
-/*  
-Pruebas Lógicas para entrevistas en JS
+/* Pruebas técnicas de código en JS para entrevistas.
 
-Prueba 2: Dada una palabra, buscarla dentro de una frase u oración, y devolver cuantas veces aparece dicha palabra
-dentro de esta frase.
+Prueba # 2: Palabras repetidas encontradas
+
+Objetivo:
+---
+Dada una palabra, buscar dentro de una frase u oración, y devolver cuantas veces aparece dicha palabra dentro de esta frase.
 
 Implementar en una función con 2 parámetros, la frase u oración y la palabra a buscar.
 
-Ej: 
-
+Ejemplo: 
+---
 Rápido ruedan los "carros" en un ferrocarril lleno de "carros".   ==> aparece 2 veces la palabra "carro"
 
 */

@@ -1,22 +1,29 @@
-/*  
-Pruebas Lógicas para entrevistas en JS
+/* Pruebas técnicas de código en JS para entrevistas.
 
-Prueba 0: Palindromo => Objetivo: Verificar si la palabra es un palindromo, que se lee de derecha a izquierda y de izquierda a derecha.
+Prueba # 0: Palindromo
 
-Ej: Amor a Roma - arroz a zorra
+Objetivo: 
+---
+Verificar si una palabra o una oración es un palindromo o no, que se pueda leer de derecha a izquierda y de izquierda a derecha.
+
+Ejemplo: 
+---
+- Amor a Roma
+
+- arroz a zorra
 
 */
 
 
 function palindromo(frase) {
     
-    $fraseInicial = frase.toLowerCase();
+    let $fraseInicial = frase.toLowerCase();
 
-    $esPalindromo = $fraseInicial
+    let $esPalindromo = $fraseInicial
                         .toLowerCase()
-                        .split('').
-                        reverse().
-                        join('');
+                        .split('')
+                        .reverse()
+                        .join('');
 
     if ($fraseInicial === $esPalindromo) {
         console.log('Es Palindromo: ' + $fraseInicial + ' = ' + $esPalindromo );
